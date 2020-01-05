@@ -11,6 +11,9 @@
 //a(0,0)b(1,0)c(2,0)d(3,0)e(0,1)f(1,1)g(2,1)h(3,1)i(0,2)j(1,2)
 using namespace std;
 
+
+//revert example...
+
 int factorial(int n)
 {
   return (n == 1 || n == 0) ? 1 : factorial(n - 1) * n;
