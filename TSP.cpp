@@ -8,21 +8,12 @@
 #include <cstring>
 // SEYYAR SATICI PROBLEMI - TRAVELLING SALESMAN PROBLEM
 
-// YUNUS DILBER 3 JUL 19
-
 //a(0,0)b(1,0)c(2,0)d(3,0)e(0,1)f(1,1)g(2,1)h(3,1)i(0,2)j(1,2)
 
-//this file will be master
-
+//lel
 using namespace std;
 
-<<<<<<< HEAD
-
-//revert example...
-
-=======
->>>>>>> parent of 3e1b167... Update TSP.cpp
-int factorial(int n)
+inline int factorial(int n)
 {
   return (n == 1 || n == 0) ? 1 : factorial(n - 1) * n;
 }
